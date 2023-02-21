@@ -75,7 +75,11 @@
           output += 't̪ʰ'
           break;
         case 'ਅ':
-          output += 'ə'
+          if (prevLetter = '') {
+            output += 'äː'
+          } else {
+            output += 'ə'
+          }
           break;
         case 'ਸ':
           output += 's'
