@@ -64,6 +64,9 @@
         case '੍':
           output += ''
           break;
+        case 'ੱ':
+          output += ','
+          break;
         case '।':
         case '।।':
           output += '.'
