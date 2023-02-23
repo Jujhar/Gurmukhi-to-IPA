@@ -80,8 +80,10 @@
         case 'ਅ':
           if (prevLetter = '') {
             output += 'äː'
+            break;
           } else {
             output += 'ə'
+            break;
           }
           break;
         case 'ਸ':
